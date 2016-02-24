@@ -1,0 +1,70 @@
+Name: YANG WEI
+USC loginid: wei495@usc.edu
+CSCI 455 PA1
+Spring 2016
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement: YW
+
+
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+Code of RandomWalkComponent.java was modified by textbook, Horstmann, Section 2.10, 3.8
+Code of Jframe in RandomWalkViewer.java was modified by textbook, Horstmann, Section 2.9
+Code of generating random number in function takeStep() in Drunkard.java was modified by textbook, Horstmann, Section 6.9.1
+Code of DrunkardTester.java was followed ImPointTester.java step by step. 
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+Not tested situation that step number is not an integer.
+The Loc may be negetive, the test will fail. EX:took step to (-3,5) FAILED: not a valid step (solved: use the Math.abs)
+                                                      
+
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+
+----------------------------------------------
+ANSWERS TO ASSIGNMENT README QUESTIONS (if applicable):
+Question 1: Why do paths taken by the drunkard have so many dead ends?
+The dead ends were caused by the random direction chose when the drunkard walked. 
+If the chosen direction of the drunkard is opposite to the previous step direction, the dead
+ends occured.
+
+Qusetion 2: paintComponent gets called every time a window gets redrawn, and may get called 
+more than once at start-up, depending on the implementation of the window system used. What 
+happens to your program if you iconify (a.k.a., minimize) and then de-iconify the window that 
+has your graphics output? (i.e., while running "java RandomWalkViewer") Try it. Why? 
+[NOTE: if your answer is the window becomes empty, you have a bug in your program that 
+you should fix.] 
+When iconify and de-iconify the window, the path will change and the start point will not be 
+the middle point. In my opinion, when iconify and de-iconify the window, the funtion will be 
+recalled and the startpoint is the end point before the window is iconified.
+
+Question 3: Do you have any ideas about how we could fix this problem? (You do not have to fix 
+the problem, nor do you have to come up with the exact code/classes, etc., but rather, just a 
+high-level idea(s).) 
+No idea.
+
+
+
+
+

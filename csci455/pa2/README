@@ -1,0 +1,59 @@
+Name: Yang Wei
+USC loginid: wei495
+CSCI 455 PA2
+Spring 2016
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+YW
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+Part of code of private static int validpilesNum(String input, int[] piles) 
+was modified by textbook, Horstmann, Section 11.2.5
+
+Part of code of private static boolean isValidConfig(int Numbers, int[] array) 
+was modified by textbook, Horstmann, Section 7.3.2
+
+READING RESOURCE:
+Horstmann, Special topic 11.5, assert statements 
+• Horstmann, Section 11.3 Command-line arguments 
+• Horstmann, Section 8.4 static methods 
+• Horstmann, Section 11.2 Text Input and Output 
+• Horstmann, Section 7.1.4, 7.3 Partially-filled arrays 
+• CS 455 lecture, 9/22, Representation invariants 
+• CS 455 lectures 9/15, 9/17, 9/22, Partially-filled array example 
+• Horstmann, Special topic 8.1 Parameter passing 
+
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+
+
+
+
+
+
